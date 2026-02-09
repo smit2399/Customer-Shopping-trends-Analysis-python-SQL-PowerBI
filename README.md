@@ -58,57 +58,43 @@ Key SQL analyses included:
 - Discount impact on purchase behavior
 - Customer segmentation (new, returning, loyal)
 
-📊 Power BI Dashboard
+**📊 Power BI Dashboard**
 
 An interactive Power BI dashboard was created to visualize insights, including:
-
-KPIs (total customers, average spend, ratings)
-
-Revenue by category and age group
-
-Subscription and shipping analysis
-
-Product performance insights
-
+- KPIs (total customers, average spend, ratings)
+- Revenue by category and age group
+- Subscription and shipping analysis
+- Product performance insights
 The dashboard enables quick exploration and filtering for business stakeholders.
 
-📈 Results & Insights
+**📈 Results & Insights**
+- Identified high-value customer segments and revenue drivers
+- Observed spending differences between subscribers and non-subscribers
+- Highlighted top-performing products and categories
+- Evaluated the effectiveness of discounts and promotions
+- Delivered actionable recommendations for marketing and retention strategies
 
-Identified high-value customer segments and revenue drivers
+**▶️ How to Run This Project**
 
-Observed spending differences between subscribers and non-subscribers
-
-Highlighted top-performing products and categories
-
-Evaluated the effectiveness of discounts and promotions
-
-Delivered actionable recommendations for marketing and retention strategies
-
-▶️ How to Run This Project
 1. Clone the Repository
+
 git clone https://github.com/your-username/data-analytics-project.git
 
 2. Set Up Python Environment
+
 pip install pandas numpy matplotlib seaborn sqlalchemy psycopg2
 
 3. Run EDA & Cleaning
-
-Open the Jupyter Notebook
-
-Execute cells sequentially to perform EDA and data cleaning
+- Open the Jupyter Notebook
+- Execute cells sequentially to perform EDA and data cleaning
 
 4. SQL Analysis
-
-Load cleaned data into PostgreSQL / MySQL / SQL Server
-
-Run SQL scripts provided in the /sql folder
+- Load cleaned data into PostgreSQL / MySQL / SQL Server
+- Run SQL scripts provided in the /sql folder
 
 5. Power BI Dashboard
-
-Open the .pbix file in Power BI Desktop
-
-Refresh data connection if needed
+- Open the .pbix file in Power BI Desktop
+- Refresh data connection if needed
 
 6. Reporting
-
-Review the analytical report and Gamma presentation for summarized insights
+- Review the analytical report and Gamma presentation for summarized insights
